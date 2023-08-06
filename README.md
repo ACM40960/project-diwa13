@@ -11,6 +11,8 @@ complete picture or might need for intrusive treatments.
 
 The original data came from the Cleavland data from the UCI Machine Learning Repository. https://archive.ics.uci.edu/ml/datasets/heart+Disease.
 
+The dataset has the following variables which we are utilizing for heart disease prediction:
+
 1. **age** - age in years
 
 2. **sex** - (1 = male; 0 = female)
@@ -59,3 +61,16 @@ the more blood movement the better (no clots)
 - **7:** reversable defect: no proper blood movement when excercising
 
 **14. target -** have disease or not (1=yes, 0=no) (= the predicted attribute)
+
+
+### Models Considered:
+
+We have a binary classification Problem since we are trying to predict whether or not a individual has heart disease or not.
+Based on this problem Statement we are considering the following models.
+
+- Logistic Regression
+- Random Forrest
+- k-Nearest Neighbors (k-NN)
+- DNN(Direct Neural Network)
+
+
