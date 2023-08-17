@@ -8,7 +8,8 @@
 
 ### MOTIVATION:
 
-![image](https://github.com/ACM40960/project-diwa13/assets/115154682/3a77eddc-0f1a-4969-9083-851fefcd8e01)
+
+<img width="586" alt="dataset pic 1" src="https://github.com/ACM40960/project-diwa13/assets/115154682/3a77eddc-0f1a-4969-9083-851fefcd8e01">
 
 ➤ A major source of death and morbidity, heart disease is a serious worldwide health concern. According to the WHO (Rath et al., 2021) 17.8 million people die from heart disease globally per decade.The evaluation of the patient's medical history, physical examinations, laboratory testing, stress tests, and cardiac catheterisation are frequently combined in the identification and diagnosis of heart disease. These diagnostic techniques, however, could not always give a 
 complete picture or might need for intrusive treatments.
