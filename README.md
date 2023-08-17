@@ -9,6 +9,9 @@ complete picture or might need for intrusive treatments.
 
 ### DATASET:
 
+<img width="586" alt="dataset pic 1" src="https://github.com/ACM40960/project-diwa13/assets/115154682/f7cc59d6-0902-4c48-92a1-bb587601ddfe">
+
+
 The original data came from the Cleavland data from the UCI Machine Learning Repository. https://archive.ics.uci.edu/ml/datasets/heart+Disease.
 
 The dataset has the following variables which we are utilizing for heart disease prediction:
