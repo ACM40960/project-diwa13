@@ -134,12 +134,15 @@ Based on this problem Statement we are considering the following models.
 
 2. Model Implementation:
       - The second section of the code is to implement the model and compare the models based accuracy.
-   The aforementioned is achieved through a series of process.
+   The aforementioned is achieved through a series of processes.
       - The train, test split is achieved through sklearn.model_selection import train_test_split.
       - The models namely logistic,KNN, Randomforrest for fitting the data are achieved using python predefined library sklearn.
       - The DNN model is created with the help of tensorflow.
   
-
+3. Hyper Parameter Tuning:
+      - The third section of the code is to do hyperparameter tuning
+      - For DNN,The following packages are imported to perform hyper tuning. from tensorflow.keras.models import Sequential,from tensorflow.keras.layers import Dense, from TensorFlow.keras.wrappers.scikit_learn import KerasClassifier, from tensorflow.keras.optimizers import Adam.
+      - For logistic and Random forest the hyperparameters are tuned using random search. This is made possible using the following predefined library from sklearn.model_selection import RandomizedSearchCV.
   
 
   
