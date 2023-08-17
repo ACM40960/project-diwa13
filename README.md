@@ -83,7 +83,7 @@ Based on this problem Statement we are considering the following models.
 - k-Nearest Neighbors (k-NN)
 - DNN(Direct Neural Network)
 
-### USAGE
+### Guidelines to run the code:
 
 1. Download Jupyter Notebook to your local machine.
 2. A python version of 3.10.9 is required; if this version is not available, upgrade the python version.
@@ -110,3 +110,12 @@ Based on this problem Statement we are considering the following models.
       - from sklearn.metrics import confusion_matrix, classification_report
       - from sklearn.metrics import precision_score, recall_score, f1_score
       - from sklearn.metrics import roc_curve, auc
+4. Run the notebook cells step-by-step to
+      - perform EDA
+      - Model Implementation
+      - Hyper Parameter Tuning for DNN, KNN, Logistic & Random Forrest.
+      - Evaluating the best model beyond accuracy namely Sensitivity, Specificity, Recall, and F-1 score by employing cross-validation.
+      - Identifying potential features and their contribution to heart disease.
+5. To execute each cell, use the run button on top of the Jupyter notebook.
+
+  
