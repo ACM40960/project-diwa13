@@ -83,4 +83,13 @@ Based on this problem Statement we are considering the following models.
 - k-Nearest Neighbors (k-NN)
 - DNN(Direct Neural Network)
 
+### USAGE
 
+1. Download Jupyter Notebook to your local machine.
+2. A python version of 3.10.9 is required; if this version is not available, upgrade the python version.
+3. Install the necessary dependencies that are listed below using the following commands in jupyter notebook.
+- **Regular EDA (exploratory data analysis) and plotting libraries**
+    import numpy as np
+    import pandas as pd
+    import matplotlib.pyplot as plt
+    import seaborn as sns
