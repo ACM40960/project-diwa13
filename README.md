@@ -1,4 +1,4 @@
-## HEART DISEASE PREDICTION USING MACHINE LEARNING METHODOLOGIES:
+<p align="center"><h1>HEART DISEASE PREDICTION USING MACHINE LEARNING METHODOLOGIES:</h1></p>
 
 ### INTRODUCTION:
 
@@ -9,7 +9,7 @@
 ### MOTIVATION:
 
 
-![istockphoto-1156928011-612x612](https://github.com/ACM40960/project-diwa13/assets/115154682/df86c154-95b8-4df7-b80f-eaf56fee2980)
+<p align="center"><img width="586" alt="dataset pic 1" src="https://github.com/ACM40960/project-diwa13/assets/115154682/df86c154-95b8-4df7-b80f-eaf56fee2980"></p>
 
 
 ➤ A major source of death and morbidity, heart disease is a serious worldwide health concern. According to the WHO (Rath et al., 2021) 17.8 million people die from heart disease globally per decade.The evaluation of the patient's medical history, physical examinations, laboratory testing, stress tests, and cardiac catheterisation are frequently combined in the identification and diagnosis of heart disease. These diagnostic techniques, however, could not always give a 
@@ -18,7 +18,7 @@ complete picture or might need for intrusive treatments.
 ➤ Furthermore, heart disease sometimes manifests without symptoms or with mild signs, making it challenging to recognise those who are at risk or who are in the early stages of the disease.
 
 ### DATASET:
-<img width="586" alt="dataset pic 1" src="https://github.com/ACM40960/project-diwa13/assets/115154682/459044ab-a4f4-476b-9eb5-79a03a732492">
+<p align="center"><img width="586" alt="dataset pic 1" src="https://github.com/ACM40960/project-diwa13/assets/115154682/459044ab-a4f4-476b-9eb5-79a03a732492"></p>
 
 The original data came from the Cleavland data from the UCI Machine Learning Repository. https://archive.ics.uci.edu/ml/datasets/heart+Disease.
 
@@ -112,6 +112,9 @@ pip install tensorflow
 ### Different Components of the code:
 
 **1. EDA:**
+
+<p align="center"><img width="586" alt="dataset pic 1" src="https://github.com/ACM40960/project-diwa13/assets/115154682/9b246758-cb03-4f25-a59d-2fba6bae0389"></p>
+
 - The first segment of the code is to import the Dataset and analyse the Data. Data Analysing is an important process before fitting the data to the model as it helps us understand our data, its structure, and its content.
 - EDA helps us to identify missing values, outliers, and anomalies in your dataset. Cleaning and preparing the data is crucial for accurate analysis.
 - EDA can assist in identifying which features (variables) are relevant for our analysis.
