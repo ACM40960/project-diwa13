@@ -118,4 +118,18 @@ Based on this problem Statement we are considering the following models.
       - Identifying potential features and their contribution to heart disease.
 5. To execute each cell, use the run button on top of the Jupyter notebook.
 
+### Different Components of the code:
+
+1. EDA:
+     - The first segment of the code is to import the Dataset and analyse the Data. Data Analysing is an important process before fitting the data to the model as it helps us understand our data, its structure, and its content.
+     - EDA helps us to identify missing values, outliers, and anomalies in your dataset. Cleaning and preparing the data is crucial for accurate analysis.
+     - EDA can assist in identifying which features (variables) are relevant for our analysis.
+     - EDA aids in our comprehension of the nature of the data and the connections between variables. This knowledge helps us choose the right models for our analysis.
+**The above mentioned process are achieved through a serious of steps**
+     - For finding suitable evaluation metrics for evaluating a model the distribution of the output is analysed via barplot.
+     - Python predefined methods provided for pandas dataframe are used to find missing values.
+     - The distribution of data is understood using python predefined methods.
+     - The potential features contributing to prediction of heart disease is achieved through a series of bar and scatter plots.
+  
+
   
