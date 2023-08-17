@@ -130,6 +130,16 @@ Based on this problem Statement we are considering the following models.
      - Python predefined methods provided for pandas dataframe are used to find missing values.
      - The distribution of data is understood using python predefined methods.
      - The potential features contributing to prediction of heart disease is achieved through a series of bar and scatter plots.
+     - The multicollinearity problem is identified using correlation plot obtained using predefined method from pandas library.
+
+2. Model Implementation:
+      - The second section of the code is to implement the model and compare the models based accuracy.
+   The aforementioned is achieved through a series of process.
+      - The train, test split is achieved through sklearn.model_selection import train_test_split.
+      - The models namely logistic,KNN, Randomforrest for fitting the data are achieved using python predefined library sklearn.
+      - The DNN model is created with the help of tensorflow.
+  
+
   
 
   
