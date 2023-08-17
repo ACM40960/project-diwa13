@@ -89,6 +89,8 @@ Based on this problem Statement we are considering the following models.
 2. A python version of 3.10.9 is required; if this version is not available, upgrade the python version.
 3. Before running the jupyter notebook make sure to install the following libraries since they have been used for analysis,model implementation,hypeparameter tuning and Evaluation.
 
+**Run the following commands for installing the aforementioned libraries**
+
 ```code
 pip install numpy
 pip install pandas    
@@ -109,33 +111,34 @@ pip install tensorflow
 ### Different Components of the code:
 
 **1. EDA:**
-     - The first segment of the code is to import the Dataset and analyse the Data. Data Analysing is an important process before fitting the data to the model as it helps us understand our data, its structure, and its content.
-     - EDA helps us to identify missing values, outliers, and anomalies in your dataset. Cleaning and preparing the data is crucial for accurate analysis.
-     - EDA can assist in identifying which features (variables) are relevant for our analysis.
-     - EDA aids in our comprehension of the nature of the data and the connections between variables. This knowledge helps us choose the right models for our analysis.
+- The first segment of the code is to import the Dataset and analyse the Data. Data Analysing is an important process before fitting the data to the model as it helps us understand our data, its structure, and its content.
+- EDA helps us to identify missing values, outliers, and anomalies in your dataset. Cleaning and preparing the data is crucial for accurate analysis.
+- EDA can assist in identifying which features (variables) are relevant for our analysis.
+- EDA aids in our comprehension of the nature of the data and the connections between variables. This knowledge helps us choose the right models for our analysis.
+
 **The above mentioned process are achieved through a serious of steps**
-     - For finding suitable evaluation metrics for evaluating a model the distribution of the output is analysed via barplot.
-     - Python predefined methods provided for pandas dataframe are used to find missing values.
-     - The distribution of data is understood using python predefined methods.
-     - The potential features contributing to prediction of heart disease is achieved through a series of bar and scatter plots.
-     - The multicollinearity problem is identified using correlation plot obtained using predefined method from pandas library.
+- For finding suitable evaluation metrics for evaluating a model the distribution of the output is analysed via barplot.
+- Python predefined methods provided for pandas dataframe are used to find missing values.
+- The distribution of data is understood using python predefined methods.
+- The potential features contributing to prediction of heart disease is achieved through a series of bar and scatter plots.
+- The multicollinearity problem is identified using correlation plot obtained using predefined method from pandas library.
 
 **2. Model Implementation:**
-      - The second section of the code is implementing the selected models and comparing the models based on accuracy.
+- The second section of the code is implementing the selected models and comparing the models based on accuracy.
    The aforementioned is achieved through a series of processes.
-      - The train, test split is achieved through sklearn.model_selection import train_test_split.
-      - The models namely logistic, KNN, and Randomforrest for fitting the data are achieved using python predefined library sklearn.
-      - The DNN model is created with the help of tensorflow.
+- The train, test split is achieved through sklearn.model_selection import train_test_split.
+- The models namely logistic, KNN, and Randomforrest for fitting the data are achieved using python predefined library sklearn.
+- The DNN model is created with the help of tensorflow.
   
 **3. Hyper Parameter Tuning:**
-      - The third section of the code is about hyperparameter tuning
-      - For DNN, The following packages are imported to perform hyper tuning. from tensorflow.keras.models import Sequential,from tensorflow.keras.layers import Dense, from TensorFlow.keras.wrappers.scikit_learn import KerasClassifier, from tensorflow.keras.optimizers import Adam.
-      - For logistic and Random forest the hyperparameters are tuned using random search. This is made possible using the following predefined library from sklearn.model_selection import RandomizedSearchCV.
-      - Each optimised model's accuracy is computed and compared.
+- The third section of the code is about hyperparameter tuning
+- For DNN, The following packages are imported to perform hyper tuning. from tensorflow.keras.models import Sequential,from tensorflow.keras.layers import Dense, from TensorFlow.keras.wrappers.scikit_learn import KerasClassifier, from tensorflow.keras.optimizers import Adam.
+- For logistic and Random forest the hyperparameters are tuned using random search. This is made possible using the following predefined library from sklearn.model_selection import RandomizedSearchCV.
+- Each optimised model's accuracy is computed and compared.
   
 **4. Evaluting our tuned machine learning classifier for the best model obtained beyond accuracy**
-      - The fourth section of code is about evaluating the best model obtained to evaluate beyond accuracy by cross validation.
-      - The confusion matrix is obtained using predefined function from sklearn.metrics library import confusion_matrix 
-      - The precision,recall,f1 score is calculated using predefined functions imported from sklearn.metrics library import precision_score, recall_score, f1_score
-      - The roc curve and auc score are obtained from predefined sklearn.metrics library using roc_curve function.
+- The fourth section of code is about evaluating the best model obtained to evaluate beyond accuracy by cross validation.
+- The confusion matrix is obtained using predefined function from sklearn.metrics library import confusion_matrix 
+- The precision,recall,f1 score is calculated using predefined functions imported from sklearn.metrics library import precision_score, recall_score, f1_score
+- The roc curve and auc score are obtained from predefined sklearn.metrics library using roc_curve function.
   
