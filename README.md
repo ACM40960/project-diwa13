@@ -1,10 +1,10 @@
 <p align="center"><h1>HEART DISEASE PREDICTION USING MACHINE LEARNING METHODOLOGIES:</h1></p>
 
-### INTRODUCTION:
+### ⚡️INTRODUCTION:
 
-➤ This github project offers Python code for determining whether or not a person is likely to have a cardiac condition based on a collection of several criteria specific to each person.
+ ➤ This github project offers Python code for determining whether or not a person is likely to have a cardiac condition based on a collection of several criteria specific to each person.
 
-➤ The obtained data was preprocessed using a variety of EDA approaches to find any possible issues, such as missing values, multicollinearity issues, or traits that might be utilised for predicting heart disease. After comparing the effectiveness of several models, including the logistic regression, KNN, random forest, and DNN models, the logistic regression model outperforms all the other models considered.
+ ➤ The obtained data was preprocessed using a variety of EDA approaches to find any possible issues, such as missing values, multicollinearity issues, or traits that might be utilised for predicting heart disease. After comparing the effectiveness of several models, including the logistic regression, KNN, random forest, and DNN models, the logistic regression model outperforms all the other models considered.
 
 ### MOTIVATION:
 
@@ -17,7 +17,7 @@ complete picture or might need for intrusive treatments.
 
 ➤ Furthermore, heart disease sometimes manifests without symptoms or with mild signs, making it challenging to recognise those who are at risk or who are in the early stages of the disease.
 
-### DATASET:
+### 🎯 DATASET:
 <p align="center"><img width="586" alt="dataset pic 1" src="https://github.com/ACM40960/project-diwa13/assets/115154682/459044ab-a4f4-476b-9eb5-79a03a732492"></p>
 
 The original data came from the Cleavland data from the UCI Machine Learning Repository. https://archive.ics.uci.edu/ml/datasets/heart+Disease.
@@ -74,7 +74,7 @@ the more blood movement the better (no clots)
 **14. target -** have disease or not (1=yes, 0=no) (= the predicted attribute)
 
 
-### Models Considered:
+### 🤖 Models Considered:
 
 We have a binary classification Problem since we are trying to predict whether or not a individual has heart disease or not.
 Based on this problem Statement we are considering the following models.
@@ -84,7 +84,7 @@ Based on this problem Statement we are considering the following models.
 - k-Nearest Neighbors (k-NN)
 - DNN(Direct Neural Network)
 
-### Guidelines to run the code:
+### ⚙️ Guidelines to run the code:
 
 1. Download Jupyter Notebook to your local machine.
 2. A python version of 3.10.9 is required; if this version is not available, upgrade the python version.
@@ -109,9 +109,10 @@ pip install tensorflow
       - Identifying potential features and their contribution to heart disease.
 5. To execute each cell, use the run button on top of the Jupyter notebook.
 
-### Different Components of the code:
+### 💡Different Components of the code:
 
-**1. EDA:**
+   **1.EDA:**
+
 
 <p align="center"><img width="586" alt="dataset pic 1" src="https://github.com/ACM40960/project-diwa13/assets/115154682/9b246758-cb03-4f25-a59d-2fba6bae0389"></p>
 
