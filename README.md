@@ -8,8 +8,7 @@ complete picture or might need for intrusive treatments.
 ➤ Furthermore, heart disease sometimes manifests without symptoms or with mild signs, making it challenging to recognise those who are at risk or who are in the early stages of the disease.
 
 ### DATASET:
-
-<img width="586" alt="dataset pic 1" src="https://github.com/ACM40960/project-diwa13/assets/115154682/f7cc59d6-0902-4c48-92a1-bb587601ddfe">
+<img width="586" alt="dataset pic 1" src="https://github.com/ACM40960/project-diwa13/assets/115154682/9b25fbe6-c50e-4a6e-bbf4-57fbcfb570ed">
 
 
 The original data came from the Cleavland data from the UCI Machine Learning Repository. https://archive.ics.uci.edu/ml/datasets/heart+Disease.
