@@ -89,7 +89,24 @@ Based on this problem Statement we are considering the following models.
 2. A python version of 3.10.9 is required; if this version is not available, upgrade the python version.
 3. Install the necessary dependencies that are listed below using the following commands in jupyter notebook.
 - **Regular EDA (exploratory data analysis) and plotting libraries**
-    import numpy as np
-    import pandas as pd
-    import matplotlib.pyplot as plt
-    import seaborn as sns
+    - import numpy as np
+    - import pandas as pd
+    - import matplotlib.pyplot as plt
+    - import seaborn as sns
+- **we want our plots to appear inside the notebook**
+   - %matplotlib inline 
+
+- **Models from Scikit-Learn**
+- Importing Libraries for the models considered: Logistic,K-means clustering,Random Forest Classifier,DNN.
+  - from sklearn.linear_model import LogisticRegression
+  - from sklearn.neighbors import KNeighborsClassifier
+  - from sklearn.ensemble import RandomForestClassifier
+  - import tensorflow as tf
+  - from sklearn.preprocessing import StandardScaler
+
+- **Importing Libraries for the models Evaluation**
+- from sklearn.model_selection import train_test_split, cross_val_score
+- from sklearn.model_selection import RandomizedSearchCV, GridSearchCV
+- from sklearn.metrics import confusion_matrix, classification_report
+- from sklearn.metrics import precision_score, recall_score, f1_score
+- from sklearn.metrics import roc_curve, auc
