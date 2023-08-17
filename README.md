@@ -9,7 +9,8 @@
 ### MOTIVATION:
 
 
-<img width="586" alt="dataset pic 1" src="https://github.com/ACM40960/project-diwa13/assets/115154682/3a77eddc-0f1a-4969-9083-851fefcd8e01">
+![istockphoto-1156928011-612x612](https://github.com/ACM40960/project-diwa13/assets/115154682/df86c154-95b8-4df7-b80f-eaf56fee2980)
+
 
 ➤ A major source of death and morbidity, heart disease is a serious worldwide health concern. According to the WHO (Rath et al., 2021) 17.8 million people die from heart disease globally per decade.The evaluation of the patient's medical history, physical examinations, laboratory testing, stress tests, and cardiac catheterisation are frequently combined in the identification and diagnosis of heart disease. These diagnostic techniques, however, could not always give a 
 complete picture or might need for intrusive treatments.
@@ -17,7 +18,7 @@ complete picture or might need for intrusive treatments.
 ➤ Furthermore, heart disease sometimes manifests without symptoms or with mild signs, making it challenging to recognise those who are at risk or who are in the early stages of the disease.
 
 ### DATASET:
-<img width="586" alt="dataset pic 1" src="https://github.com/ACM40960/project-diwa13/assets/115154682/9b25fbe6-c50e-4a6e-bbf4-57fbcfb570ed">
+<img width="586" alt="dataset pic 1" src="https://github.com/ACM40960/project-diwa13/assets/115154682/459044ab-a4f4-476b-9eb5-79a03a732492">
 
 The original data came from the Cleavland data from the UCI Machine Learning Repository. https://archive.ics.uci.edu/ml/datasets/heart+Disease.
 
