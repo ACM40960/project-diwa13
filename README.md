@@ -1,4 +1,4 @@
-<p align="center"><h1>HEART DISEASE PREDICTION USING MACHINE LEARNING METHODOLOGIES:</h1></p>
+<p align="center"><h1>🫀PREDICTION OF HEART DISEASE USING MACHINE LEARNING:</h1></p>
 
 ### ⚡️INTRODUCTION:
 
@@ -6,7 +6,7 @@
 
  ➤ The obtained data was preprocessed using a variety of EDA approaches to find any possible issues, such as missing values, multicollinearity issues, or traits that might be utilised for predicting heart disease. After comparing the effectiveness of several models, including the logistic regression, KNN, random forest, and DNN models, the logistic regression model outperforms all the other models considered.
 
-### MOTIVATION:
+### 🧠 MOTIVATION:
 
 
 <p align="center"><img width="586" alt="dataset pic 1" src="https://github.com/ACM40960/project-diwa13/assets/115154682/df86c154-95b8-4df7-b80f-eaf56fee2980"></p>
