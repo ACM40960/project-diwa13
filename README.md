@@ -148,6 +148,7 @@ pip install tensorflow
 
 <p align="center"><img width="586" alt="dataset pic 1" src="https://github.com/ACM40960/project-diwa13/assets/115154682/9b246758-cb03-4f25-a59d-2fba6bae0389"></p>
 <p align="center">Fig: Culmination of different Exploratory data Analysis performed</p>
+
 - The first segment of the code is to import the Dataset and analyse the Data. Data Analysing is an important process before fitting the data to the model as it helps us understand our data, its structure, and its content.
 - EDA helps us to identify missing values, outliers, and anomalies in your dataset. Cleaning and preparing the data is crucial for accurate analysis.
 - EDA can assist in identifying which features (variables) are relevant for our analysis.
@@ -189,6 +190,8 @@ pip install tensorflow
 
 <p align="center"><img width="320" alt="dataset pic 1" src="https://github.com/ACM40960/project-diwa13/assets/115154682/90a65538-8303-4d94-84ce-76c49fb42c59"></p>
 <p align="center">Fig: Evaluation of Logistic Regression based on Precison,F1 score,Recall,Confusion matrix,Roc Curve</p>
+
+
 - Subsequently, the evaluation of the Logistic Regression model included the following metrics to gauge its predictive capacity:
     - Area Under the ROC Curve (AUC):
     - Sensitivity (True Positive Rate):
