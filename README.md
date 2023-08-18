@@ -117,9 +117,9 @@ Based on this problem Statement we are considering the following models.
 - k-Nearest Neighbors (k-NN)
        - Default values in scikit learn has been used as parameters for K-Nearest Neighbour
 - DNN(Direct Neural Network):
-        - A DNN has been constructed with Single hidden layer comprising 16 units has been fitted.
-        - Relu has been used as an activation function because ReLU helps mitigate the vanishing gradient problem, which is a challenge in deep networks
-        - The output function consists of a single unit and sigmoid is used as an activation function since its a binary classification.
+- A DNN has been constructed with Single hidden layer comprising 16 units has been fitted.
+- Relu has been used as an activation function because ReLU helps mitigate the vanishing gradient problem, which is a challenge in deep networks
+- The output function consists of a single unit and sigmoid is used as an activation function since its a binary classification.
 
 ### ⚙️ Guidelines to run the code:
 
