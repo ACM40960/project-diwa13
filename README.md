@@ -204,3 +204,15 @@ pip install tensorflow
 - If you have any queries you can mail them to us:
    - Mail id: Diwakar Mohan (mohann111122@gmail.com)
    - Mail id : SakethSaiNigam (saketh1506@gmail.com)
+
+## 🔗 REFERENCES:
+
+- Machine Learning Technology-Based Heart Disease Detection Models, Authors:Umarani Nagavelli, Debabrata Samanta, and Partha Chakraborty[Link1](https://www.hindawi.com/journals/jhe/2022/7351061/)
+- Effective Heart Disease Prediction Using Machine Learning Techniques, Authors:Chintan M. Bhatt ,Parth Patel,Tarang Ghetia and Pier Luigi Mazzeo[Link2](https://www.mdpi.com/1999-4893/16/2/88)
+- Heart disease prediction using machine learning algorithms, Authors: Harshit Jindal, Sarthak Agrawal, Rishabh Khera, Rachna Jain and Preeti Nagrath Published under licence by IOP Publishing Ltd [Link3](https://iopscience.iop.org/article/10.1088/1757-899X/1022/1/012072)
+- Diagnosis And Prediction Of Heart Disease Using Machine Learning Techniques, Author:J.Jeyaganesan, A.Sathiya , S.Keerthana, Aaradhyanidhi Aiyer[Link4](https://www.bibliomed.org/?mno=141030)
+-  A. L. Bui, T. B. Horwich, and G. C. Fonarow, ‘‘Epidemiology and risk profile of heart failure,’’ Nature Rev. Cardiol., vol. 8, no. 1, p. 30, 2011.[Link5](https://pubmed.ncbi.nlm.nih.gov/21060326/)
+
+
+
+
