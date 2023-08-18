@@ -134,7 +134,7 @@ pip install tensorflow
 ```
 
 4. Run the notebook cells step-by-step to
-      - perform EDA
+      - perform Exploratory Data Analysis.
       - Model Implementation
       - Hyper Parameter Tuning for DNN, KNN, Logistic & Random Forrest.
       - Evaluating the best model beyond accuracy namely Sensitivity, Specificity, Recall, and F-1 score by employing cross-validation.
