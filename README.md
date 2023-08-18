@@ -10,7 +10,7 @@
 ### 🔎METHEDOLOGY:
 
 <p align="center"><img width="586" alt="dataset pic 1" src="https://github.com/ACM40960/project-diwa13/assets/115154682/ecd197c6-71ff-4b5f-87c0-f9fb5624d817"></p>
-
+<p align="center">FIG : Work Flow </p>
 ➤ We looked at four models to predict cardiac disease using machine learning. To determine whether or not a person has cardiac disease, algorithms like K means, Random Forrest,DNN and logistic regression have been used. All the four models are most effective at forecasting binary outcomes.
 
 ➤ Before modelling the data, we performed exploratory data analysis to identify any discrepancies in the data and apply the appropriate pretreatment measures.
@@ -31,7 +31,7 @@ complete picture or might need for intrusive treatments.
 
 ➤ Furthermore, heart disease sometimes manifests without symptoms or with mild signs, making it challenging to recognise those who are at risk or who are in the early stages of the disease.
 
-### 🚀 WHO MAY UTILISE THIS REPO
+### 🚀 WHO MAY UTILISE THIS REPO:
 
 - **Data scientists and enthusiasts of machine learning:** The repository may be used as a learning tool for data scientists and machine learning professionals. They can examine the source code, comprehend the machine learning process, and use related methods in their own projects.
 - **Healthcare Professionals:** Doctors and medical researchers, among others, can gain from learning how predictive models might help with heart disease diagnosis and prediction. They could be curious about the effectiveness of the approach and how it might affect patient care.
@@ -117,8 +117,8 @@ Based on this problem Statement we are considering the following models.
 
 ### ⚙️ Guidelines to run the code:
 
-1. Download Jupyter Notebook to your local machine.
-2. A python version of 3.10.9 is required; if this version is not available, upgrade the python version.
+1. Download Jupyter Notebook to your local machine. You can download Anaconda[Anaconda](https://www.anaconda.com/download) and install Jupyter Noebook. 
+2. A python version of 3.10.9 is required; if this version is not available, upgrade the python version. Python can be downloaded from the Link.[Link for downloading Python](https://www.python.org/downloads/)
 3. Before running the jupyter notebook make sure to install the following libraries since they have been used for analysis,model implementation,hypeparameter tuning and Evaluation.
 
 **Run the following commands for installing the aforementioned libraries**
