@@ -119,7 +119,8 @@ Based on this problem Statement we are considering the following models.
 
 1. Download Jupyter Notebook to your local machine. You can download Anaconda[Anaconda](https://www.anaconda.com/download) and install Jupyter Noebook. 
 2. A python version of 3.10.9 is required; if this version is not available, upgrade the python version. Python can be downloaded from the Link.[Link for downloading Python](https://www.python.org/downloads/)
-3. Before running the jupyter notebook make sure to install the following libraries since they have been used for analysis,model implementation,hypeparameter tuning and Evaluation.
+3. Download the dataset available in our repository and store it in your local directory where jupyter notebook is running.
+4. Before running the jupyter notebook make sure to install the following libraries since they have been used for analysis,model implementation,hypeparameter tuning and Evaluation.
 
 **Run the following commands for installing the aforementioned libraries**
 
