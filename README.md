@@ -189,13 +189,13 @@ pip install tensorflow
 
 ### RESULTS:
 
-<p align="center"><img width="250" alt="dataset pic 1" src="https://github.com/ACM40960/project-diwa13/assets/115154682/fed8f367-6158-4402-ac5a-55dc2cf304ce">
+<p align="center"><img width="400" alt="dataset pic 1" src="https://github.com/ACM40960/project-diwa13/assets/115154682/fed8f367-6158-4402-ac5a-55dc2cf304ce">
 </p>
 <p align="center">Fig: Comparison of models based on Accuracy</p>
 
 - We have considered 4 models namely Logistic, Random forest, KNN,DNN.Based on the evaluation of four models (Logistic Regression, Random Forest, K-Nearest Neighbour's, Deep Neural Network), after hyperparameter tuning and fitting the optimised models on balanced data, Logistic Regression emerged as the best-performing model based on accuracy. 
 
-<p align="center"><img width="320" alt="dataset pic 1" src="https://github.com/ACM40960/project-diwa13/assets/115154682/90a65538-8303-4d94-84ce-76c49fb42c59"></p>
+<p align="center"><img width="360" alt="dataset pic 1" src="https://github.com/ACM40960/project-diwa13/assets/115154682/90a65538-8303-4d94-84ce-76c49fb42c59"></p>
 <p align="center">Fig: Evaluation of Logistic Regression based on Precison,F1 score,Recall,Confusion matrix,Roc Curve</p>
 
 
