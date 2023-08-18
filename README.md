@@ -55,6 +55,7 @@ complete picture or might need for intrusive treatments.
 <p align="center">TABLE : Snapshot of the dataset</p>
 The original data came from the Cleavland data from the UCI Machine Learning Repository. https://archive.ics.uci.edu/ml/datasets/heart+Disease.
 The dataset has the following variables which we are utilizing for heart disease prediction:
+
 1. **age** - age in years
 
 2. **sex** - (1 = male; 0 = female)
