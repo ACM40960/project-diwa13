@@ -193,12 +193,12 @@ pip install tensorflow
 
 
 - Subsequently, the evaluation of the Logistic Regression model included the following metrics to gauge its predictive capacity:
-    - Area Under the ROC Curve (AUC):
-    - Sensitivity (True Positive Rate):
-    - Specificity (True Negative Rate):
-    - F1 Score:
+    - Area Under the ROC Curve (AUC):(0.93)
+    - Recall(True Positive Rate):(0.92)
+    - Precision:(0.82)
+    - F1 Score:(0.86)
 
-- These metrics collectively offer a comprehensive understanding of the model's performance across various aspects. While accuracy is a valuable metric, these additional measures give deeper insights into how well the model performs under different scenarios and classes. Based on the evaluated metrics, the Logistic Regression model's AUC, Sensitivity, Specificity, and F1 Score provide a more nuanced assessment of its predictive capacity.
+- These metrics collectively offer a comprehensive understanding of the model's performance across various aspects. While accuracy is a valuable metric, these additional measures give deeper insights into how well the model performs under different scenarios and classes. Based on the evaluated metrics, the Logistic Regression model's AUC, Sensitivity, Specificity, and F1 Score provide a more nuanced assessment of its predictive capacity. We may thus draw the conclusion that, when compared to other models, logistic regression has greater predictive ability.
   
 ### 💡CONTRIBUTION
 - We encourage contributions to this repository. Feel free to send in a pull request if you have ideas for improved machine learning models, want to fine-tune the hyperparameters, identify any data abnormalities, or want to improve any aspect of the project.
