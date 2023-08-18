@@ -6,6 +6,20 @@
 
  ➤ The obtained data was preprocessed using a variety of EDA approaches to find any possible issues, such as missing values, multicollinearity issues, or traits that might be utilised for predicting heart disease. After comparing the effectiveness of several models, including the logistic regression, KNN, random forest, and DNN models, the logistic regression model outperforms all the other models considered.
 
+
+### 🔎METHEDOLOGY:
+
+<p align="center"><img width="586" alt="dataset pic 1" src="https://github.com/ACM40960/project-diwa13/assets/115154682/ecd197c6-71ff-4b5f-87c0-f9fb5624d817"></p>
+
+➤ We looked at four models to predict cardiac disease using machine learning. To determine whether or not a person has cardiac disease, algorithms like K means, Random Forrest,DNN and logistic regression have been used. All the four models are most effective at forecasting binary outcomes.
+
+➤ Before modelling the data, we performed exploratory data analysis to identify any discrepancies in the data and apply the appropriate pretreatment measures.
+
+➤ An essential factor that has to be considered is tuning the hyperparameters in all three models. The logistic regression probability value, the number of decision trees,max_depth,min_samples_split,min_samples_leaf in the random forest, In DNN batch_size','epochs','learning_rate','units'  and the number of clusters in the k-means algorithm are the hyperparameters that are tuned using cross-validation methods.
+
+➤ The best model is chosen and applied to predict the presence or absence of heart disease, and its performance is evaluated beyond accuracy.
+
+
 ### 🧠 MOTIVATION:
 
 
@@ -17,13 +31,30 @@ complete picture or might need for intrusive treatments.
 
 ➤ Furthermore, heart disease sometimes manifests without symptoms or with mild signs, making it challenging to recognise those who are at risk or who are in the early stages of the disease.
 
+### 🚀 WHO MAY UTILISE THIS REPO
+
+- **Data scientists and enthusiasts of machine learning:** The repository may be used as a learning tool for data scientists and machine learning professionals. They can examine the source code, comprehend the machine learning process, and use related methods in their own projects.
+- **Healthcare Professionals:** Doctors and medical researchers, among others, can gain from learning how predictive models might help with heart disease diagnosis and prediction. They could be curious about the effectiveness of the approach and how it might affect patient care.
+- **Students and Researchers:** Students working on projects and doing research in the disciplines of data science, machine learning, and medicine can utilise the repository as a useful reference. It may be used as a reference to comprehend how machine learning is used in healthcare.
+
+
+### 📜GOAL OF THE PROJECT:
+
+- The ultimate objective of heart disease prediction using machine learning is to maximise the potential of data analysis and predictive modelling to identify individuals at risk of heart diseases based on their medical records, increase the precision of risk assessment, and advance medical research and healthcare practises in the field of cardiovascular diseases.
+
+### 🛠️APPLICATIONS OF THE PROJECT:
+
+- **Healthcare Organisations:** The repository can be used as a starting point by healthcare organisations wanting to deploy predictive models for the detection and prevention of heart disease. They could modify the model to fit their specific needs and datasets.
+- **Health Insurance:** Predictive models may be used by insurance firms to analyse risk profiles and customise insurance policies.
+- **Telemedicine:** Predictive models may be integrated into telemedicine systems to offer virtual consultations with risk evaluations.
+- **Public Health Surveillance:** By offering information on disease prevalence and trends, aggregated data from prediction models may support public health surveillance.
+- **Medical Research:** Large medical datasets may be analysed using machine learning to find new risk factors and relationships, advancing medical research and the creation of novel medicines.
+  
 ### 🎯 DATASET:
 <p align="center"><img width="586" alt="dataset pic 1" src="https://github.com/ACM40960/project-diwa13/assets/115154682/459044ab-a4f4-476b-9eb5-79a03a732492"></p>
-
+<p align="center">TABLE : Snapshot of the dataset</p>
 The original data came from the Cleavland data from the UCI Machine Learning Repository. https://archive.ics.uci.edu/ml/datasets/heart+Disease.
-
 The dataset has the following variables which we are utilizing for heart disease prediction:
-
 1. **age** - age in years
 
 2. **sex** - (1 = male; 0 = female)
@@ -111,11 +142,11 @@ pip install tensorflow
 
 ### 💡Different Components of the code:
 
-   **1.EDA:**
+**1.EDA:**
 
 
 <p align="center"><img width="586" alt="dataset pic 1" src="https://github.com/ACM40960/project-diwa13/assets/115154682/9b246758-cb03-4f25-a59d-2fba6bae0389"></p>
-
+<p align="center">Fig: Culmination of different Exploratory data Analysis performed</p>
 - The first segment of the code is to import the Dataset and analyse the Data. Data Analysing is an important process before fitting the data to the model as it helps us understand our data, its structure, and its content.
 - EDA helps us to identify missing values, outliers, and anomalies in your dataset. Cleaning and preparing the data is crucial for accurate analysis.
 - EDA can assist in identifying which features (variables) are relevant for our analysis.
@@ -146,4 +177,30 @@ pip install tensorflow
 - The confusion matrix is obtained using predefined function from sklearn.metrics library import confusion_matrix 
 - The precision,recall,f1 score is calculated using predefined functions imported from sklearn.metrics library import precision_score, recall_score, f1_score
 - The roc curve and auc score are obtained from predefined sklearn.metrics library using roc_curve function.
+
+### RESULTS:
+
+<p align="center"><img width="250" alt="dataset pic 1" src="https://github.com/ACM40960/project-diwa13/assets/115154682/fed8f367-6158-4402-ac5a-55dc2cf304ce">
+</p>
+<p align="center">Fig: Comparison of models based on Accuracy</p>
+
+- We have considered 4 models namely Logistic, Random forest, KNN,DNN.Based on the evaluation of four models (Logistic Regression, Random Forest, K-Nearest Neighbour's, Deep Neural Network), after hyperparameter tuning and fitting the optimised models on balanced data, Logistic Regression emerged as the best-performing model based on accuracy. 
+
+<p align="center"><img width="320" alt="dataset pic 1" src="https://github.com/ACM40960/project-diwa13/assets/115154682/90a65538-8303-4d94-84ce-76c49fb42c59"></p>
+<p align="center">Fig: Evaluation of Logistic Regression based on Precison,F1 score,Recall,Confusion matrix,Roc Curve</p>
+- Subsequently, the evaluation of the Logistic Regression model included the following metrics to gauge its predictive capacity:
+    - Area Under the ROC Curve (AUC):
+    - Sensitivity (True Positive Rate):
+    - Specificity (True Negative Rate):
+    - F1 Score:
+
+- These metrics collectively offer a comprehensive understanding of the model's performance across various aspects. While accuracy is a valuable metric, these additional measures give deeper insights into how well the model performs under different scenarios and classes. Based on the evaluated metrics, the Logistic Regression model's AUC, Sensitivity, Specificity, and F1 Score provide a more nuanced assessment of its predictive capacity.
   
+### 💡CONTRIBUTION
+- We encourage contributions to this repository. Feel free to send in a pull request if you have ideas for improved machine learning models, want to fine-tune the hyperparameters, identify any data abnormalities, or want to improve any aspect of the project.
+
+## 🛠️CREDITS:
+- This project is in collaboration with SakethSaiNigam (https://github.com/ACM40960/project-SakethSaiNigam)
+- If you have any queries you can mail them to us:
+   - Mail id: Diwakar Mohan (mohann111122@gmail.com)
+   - Mail id : SakethSaiNigam (saketh1506@gmail.com)
