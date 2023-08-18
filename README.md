@@ -11,11 +11,12 @@
 
 <p align="center"><img width="586" alt="dataset pic 1" src="https://github.com/ACM40960/project-diwa13/assets/115154682/ecd197c6-71ff-4b5f-87c0-f9fb5624d817"></p>
 <p align="center">FIG : Work Flow </p>
-➤ We looked at four models to predict cardiac disease using machine learning. To determine whether or not a person has cardiac disease, algorithms like K means, Random Forrest,DNN and logistic regression have been used. All the four models are most effective at forecasting binary outcomes.
 
-➤ Before modelling the data, we performed exploratory data analysis to identify any discrepancies in the data and apply the appropriate pretreatment measures.
+➤ We looked at four models to predict cardiac disease using machine learning. To determine whether or not a person has the cardiac disease, algorithms like K means, Random Forrest,DNN, and logistic regression have been used. All four models are most effective at forecasting binary outcomes.
 
-➤ An essential factor that has to be considered is tuning the hyperparameters in all three models. The logistic regression probability value, the number of decision trees,max_depth,min_samples_split,min_samples_leaf in the random forest, In DNN batch_size','epochs','learning_rate','units'  and the number of clusters in the k-means algorithm are the hyperparameters that are tuned using cross-validation methods.
+➤ Before modeling the data, we performed exploratory data analysis to identify any discrepancies in the data and apply the appropriate pretreatment measures.
+
+➤ An essential factor that has to be considered is tuning the hyperparameters in all three models. The logistic regression probability value, the number of decision trees,max_depth,min_samples_split,min_samples_leaf in the random forest, In DNN batch_size','epochs','learning_rate','units',  and the number of neighbors in the k-means algorithm are the hyperparameters that are tuned using cross-validation methods.
 
 ➤ The best model is chosen and applied to predict the presence or absence of heart disease, and its performance is evaluated beyond accuracy.
 
@@ -26,7 +27,7 @@
 <p align="center"><img width="586" alt="dataset pic 1" src="https://github.com/ACM40960/project-diwa13/assets/115154682/df86c154-95b8-4df7-b80f-eaf56fee2980"></p>
 
 
-➤ A major source of death and morbidity, heart disease is a serious worldwide health concern. According to the WHO (Rath et al., 2021) 17.8 million people die from heart disease globally per decade.The evaluation of the patient's medical history, physical examinations, laboratory testing, stress tests, and cardiac catheterisation are frequently combined in the identification and diagnosis of heart disease. These diagnostic techniques, however, could not always give a 
+➤ A major source of death and morbidity, heart disease is a serious worldwide health concern. According to the WHO (Rath et al., 2021) 17.8 million people die from heart disease globally per decade. The evaluation of the patient's medical history, physical examinations, laboratory testing, stress tests, and cardiac catheterization are frequently combined in the identification and diagnosis of heart disease. These diagnostic techniques, however, could not always give a 
 complete picture or might need for intrusive treatments.
 
 ➤ Furthermore, heart disease sometimes manifests without symptoms or with mild signs, making it challenging to recognise those who are at risk or who are in the early stages of the disease.
@@ -40,7 +41,7 @@ complete picture or might need for intrusive treatments.
 
 ### 📜GOAL OF THE PROJECT:
 
-- The ultimate objective of heart disease prediction using machine learning is to maximise the potential of data analysis and predictive modelling to identify individuals at risk of heart diseases based on their medical records, increase the precision of risk assessment, and advance medical research and healthcare practises in the field of cardiovascular diseases.
+- The ultimate objective of heart disease prediction using machine learning is to maximise the potential of data analysis and predictive modeling to identify individuals at risk of heart diseases based on their medical records, increase the precision of risk assessment, and advance medical research and healthcare practices in the field of cardiovascular diseases.
 
 ### 🛠️APPLICATIONS OF THE PROJECT:
 
