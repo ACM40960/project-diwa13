@@ -4,7 +4,7 @@
 
  ➤ This github project offers Python code for determining whether or not a person is likely to have a cardiac condition based on a collection of several criteria specific to each person.
 
- ➤ The obtained data was preprocessed using a variety of EDA approaches to find any possible issues, such as missing values, multicollinearity issues, or traits that might be utilised for predicting heart disease. After comparing the effectiveness of several models, including the logistic regression, KNN, random forest, and DNN models, the logistic regression model outperforms all the other models considered.
+ ➤ The obtained data was preprocessed using a variety of Exploratory Data Analysis approaches to find any possible issues, such as missing values, multicollinearity issues, or traits that might be utilised for predicting heart disease. After comparing the effectiveness of several models, including the logistic regression, KNN, random forest, and DNN models, the logistic regression model outperforms all the other models considered.
 
 
 ### 🔎METHEDOLOGY:
@@ -12,11 +12,11 @@
 <p align="center"><img width="586" alt="dataset pic 1" src="https://github.com/ACM40960/project-diwa13/assets/115154682/ecd197c6-71ff-4b5f-87c0-f9fb5624d817"></p>
 <p align="center">FIG : Work Flow </p>
 
-➤ We looked at four models to predict cardiac disease using machine learning. To determine whether or not a person has the cardiac disease, algorithms like K means, Random Forrest,DNN, and logistic regression have been used. All four models are most effective at forecasting binary outcomes.
+➤ We looked at four models to predict cardiac disease using machine learning. To determine whether or not a person has the cardiac disease, algorithms like K Nearest Neighbors, Random Forrest,DNN, and logistic regression have been used. All four models are most effective at forecasting binary outcomes.
 
 ➤ Before modeling the data, we performed exploratory data analysis to identify any discrepancies in the data and apply the appropriate pretreatment measures.
 
-➤ An essential factor that has to be considered is tuning the hyperparameters in all three models. The logistic regression probability value, the number of decision trees,max_depth,min_samples_split,min_samples_leaf in the random forest, In DNN batch_size','epochs','learning_rate','units',  and the number of neighbors in the k-means algorithm are the hyperparameters that are tuned using cross-validation methods.
+➤ An essential factor that has to be considered is tuning the hyperparameters in all four models. The logistic regression probability value, the number of decision trees,max_depth,min_samples_split,min_samples_leaf in the random forest, In DNN batch_size','epochs','learning_rate','units',  and the number of neighbors in the k Nearest Neighbors algorithm are the hyperparameters that are tuned using cross-validation methods.
 
 ➤ The best model is chosen and applied to predict the presence or absence of heart disease, and its performance is evaluated beyond accuracy.
 
@@ -109,7 +109,7 @@ the more blood movement the better (no clots)
 
 ### 🤖 Models Considered:
 
-We have a binary classification Problem since we are trying to predict whether or not a individual has heart disease or not.
+We have a binary classification Problem since we are trying to predict whether or not a individual has heart disease.
 Based on this problem Statement we are considering the following models.
 
 - Logistic Regression
@@ -145,7 +145,7 @@ pip install tensorflow
       - perform Exploratory Data Analysis.
       - Model Implementation
       - Hyper Parameter Tuning for DNN, KNN, Logistic & Random Forrest.
-      - Evaluating the best model beyond accuracy namely Sensitivity, Specificity, Recall, and F-1 score by employing cross-validation.
+      - Evaluating the best model beyond accuracy namely Precision, Recall, and F-1 score by employing cross-validation.
       - Identifying potential features and their contribution to heart disease.
 5. To execute each cell, use the run button on top of the Jupyter notebook.
 
